@@ -27,4 +27,8 @@ English Copilot contributes the following settings:
 - Initial release of English Copilot
 - Basic comment translation and grammatical error correction functionality
 
+## License
+
+This extension is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for more information.
+
 **Enjoy using English Copilot to enhance your code comments!**

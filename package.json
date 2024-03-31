@@ -18,6 +18,7 @@
     "type": "git",
     "url": "https://github.com/minty99/english-copilot.git"
   },
+  "license": "Apache-2.0",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
