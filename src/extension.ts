@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let channel = vscode.window.createOutputChannel("English Copilot");
 	channel.appendLine("English Copilot activated")
 
-	let disposable = vscode.commands.registerCommand('english-copilot.naturalize', async () => {
+	let disposable = vscode.commands.registerCommand('english-copilot.improve', async () => {
 		// The code you place here will be executed every time your command is executed
 		let config = vscode.workspace.getConfiguration('english-copilot');
 		let openAiApiKey = config.get('openAiApiKey');

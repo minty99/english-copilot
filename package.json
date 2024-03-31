@@ -28,8 +28,8 @@
     },
     "commands": [
       {
-        "command": "english-copilot.naturalize",
-        "title": "English Copilot: Naturalize Selected Block"
+        "command": "english-copilot.improve",
+        "title": "English Copilot: Improve Selected Block"
       }
     ]
   },

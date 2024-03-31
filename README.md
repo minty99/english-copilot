@@ -6,7 +6,7 @@ English Copilot is a VS Code extension designed to assist software engineers in 
 
 1. Select a block of text containing the comment you want to improve.
 2. Open the Command Palette in VS Code (Ctrl+Shift+P or Cmd+Shift+P).
-3. Select the "English Copilot: Naturalize Selected Block" command.
+3. Select the "English Copilot: Improve Selected Block" command.
 4. The extension will process the selected comment and replace it with the improved version.
 
 ## Requirements
