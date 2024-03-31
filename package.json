@@ -21,8 +21,8 @@
         },
         "english-copilot.openAiModelName": {
           "type": "string",
-          "description": "Model name to use. Default: 'gpt-4'",
-          "default": "gpt-4"
+          "description": "The name of the OpenAI model to use for comment translation and improvement. You can find the available model names on the OpenAI website. Default: 'gpt-3.5-turbo'",
+          "default": "gpt-3.5-turbo"
         }
       }
     },
