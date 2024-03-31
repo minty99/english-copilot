@@ -12,10 +12,24 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+    "configuration": {
+      "title": "English Copilot",
+      "properties": {
+        "english-copilot.openAiApiKey": {
+          "type": "string",
+          "description": "Your own OpenAI API Key"
+        },
+        "english-copilot.openAiModelName": {
+          "type": "string",
+          "description": "Model name to use. Default: 'gpt-4'",
+          "default": "gpt-4"
+        }
+      }
+    },
     "commands": [
       {
-        "command": "english-copilot.helloWorld",
-        "title": "Hello World"
+        "command": "english-copilot.naturalize",
+        "title": "English Copilot: Naturalize Selected Block"
       }
     ]
   },
@@ -28,14 +42,17 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.87.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
+    "@types/vscode": "^1.87.0",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.6",
-    "@vscode/test-electron": "^2.3.9"
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "openai": "^4.31.0"
   }
 }
