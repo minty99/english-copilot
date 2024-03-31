@@ -26,13 +26,15 @@
       "title": "English Copilot",
       "properties": {
         "english-copilot.openAiApiKey": {
-          "type": "string",
-          "description": "Your own OpenAI API Key"
+          "title": "OpenAI API Key",
+          "description": "Your own OpenAI API Key",
+          "type": "string"
         },
         "english-copilot.openAiModelName": {
-          "type": "string",
+          "title": "OpenAI Model Name",
           "description": "The name of the OpenAI model to use for comment translation and improvement. You can find the available model names on the OpenAI website. Default: 'gpt-3.5-turbo'",
-          "default": "gpt-3.5-turbo"
+          "default": "gpt-3.5-turbo",
+          "type": "string"
         }
       }
     },
