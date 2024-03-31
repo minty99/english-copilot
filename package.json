@@ -3,12 +3,21 @@
   "displayName": "English Copilot",
   "description": "More natural English by AI assistance",
   "version": "0.1.0",
+  "publisher": "Muhwan Kim",
   "engines": {
     "vscode": "^1.87.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "english",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minty99/english-copilot.git"
+  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
