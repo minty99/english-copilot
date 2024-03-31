@@ -2,7 +2,7 @@
   "name": "english-copilot",
   "displayName": "English Copilot",
   "description": "More natural English by AI assistance",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.87.0"
   },
